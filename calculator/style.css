@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    background: #ebf5fc;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    background: #ebf5fc;
+    box-shadow: -4px -4px 11px rgba(255,255,255,1),
+    5px 5px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    line-height: 20px;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#keyboard{
+    height: 400px;
+    width: 300px;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.operator, .number{
+    color: #919191;
+    width: 60px;
+    height: 60px;
+    /* float: left; */
+    margin: 7px;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.operator:focus, .number:focus{
+    outline: 0;
+}
+#keyboard button{
+    /* background: #708090; */
+    background: #ebf5fc;
+    box-shadow: -4px -4px 11px rgba(255,255,255,1),
+    2px 2px 7px rgba(0,0,0,0.1);
+}
+#keyboard button:nth-child(4n+4),#keyboard button:nth-child(19){
+    background: #ebf5fc;
+    box-shadow: -4px -4px 11px rgba(255,255,255,1),
+    2px 2px 7px rgba(0,0,0,0.1);
+    color: sandybrown;
+}
+#keyboard button:nth-child(-1n+3){
+    background: #ebf5fc;
+    box-shadow: -4px -4px 11px rgba(255,255,255,1),
+    2px 2px 7px rgba(0,0,0,0.1);
+    color: tan;
+}
+#keyboard button:nth-child(17){
+    width: 130px;
+    border-radius: 50px;
+}
+#keyboard button:active{
+    font-size: 19px;
+    box-shadow: inset -4px -4px 11px rgba(255,255,255,1),
+    inset 2px 2px 7px rgba(0,0,0,0.1);
+}
