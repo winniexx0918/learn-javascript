@@ -49,7 +49,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.operator, .number{
+.operator, .number, .period{
     color: #919191;
     width: 60px;
     height: 60px;
@@ -61,7 +61,7 @@
     font-weight: 600;
     cursor: pointer;
 }
-.operator:focus, .number:focus{
+.operator:focus, .number:focus, .period:focus{
     outline: 0;
 }
 #keyboard button{

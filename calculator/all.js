@@ -14,7 +14,7 @@ function printOutput(num){
     if(num==''){
         document.getElementById('output_value').innerText=num;
     }else{
-        document.getElementById('output_value').innerText=getCommaNumber(num);
+        document.getElementById('output_value').innerText=num;
     }
 }
 // 將數字格式化，使整數部分每三位加一個逗號，toLocaleString()
@@ -26,16 +26,23 @@ function getCommaNumber(num){
     var n = Number(num);
     var changeValue = n.toLocaleString();
     return changeValue;
-}
+} //string
 // printOutput('999444999')
+// printOutput('0234234.4')
+
+function intlCommaNumber(num){
+  var intlValue = Intl.NumberFormat().format(num);
+  return intlValue;
+}
 
 //把印出的字串(數字)，","拿掉變數字，才能改變型別。
 // replace()方法用來將字串中的字取代為另一個字，g全部。
 function replaceNumber(num){
     return Number(num.replace(/,/g,''));
+    // return num.replace(/,/g,'');
 }
 // console.log(replaceNumber(getOutput()))
-
+// console.log(typeof(replaceNumber('0.3'))) //number
 //按符號
 var operator = document.getElementsByClassName('operator');
 // console.log(typeof(operator)) 物件
@@ -45,12 +52,15 @@ for(i=0; i<operator.length; i++){
         // console.log(this.id)
         if(this.id=='clear'){
             printHistoryNumber('');
-            printOutput('')
+            printOutput('0')
         }else if(this.id=='backspace'){
             var output = replaceNumber(getOutput()).toString();
             if(output){
                 output = output.substr(0,output.length-1);
                 printOutput(output);
+                if(output==''){
+                    printOutput('0')
+                }
             }
         }else if(this.id=='percentage'){
             var output = replaceNumber(getOutput());
@@ -72,8 +82,8 @@ for(i=0; i<operator.length; i++){
                 output = output==''? output : replaceNumber(output);
                 history = history+output;
                 if(this.id=='='){
-                    var result = eval(history);
-                    printOutput(result);
+                    var result = eval(history); //number
+                    printOutput(getCommaNumber(result));
                     printHistoryNumber('')
                 }else{
                     historynum = history+this.id;
@@ -89,10 +99,23 @@ var number = document.getElementsByClassName('number');
 for(i=0; i<number.length; i++){
     number[i].addEventListener('click',function(){
         // console.log(this.id)
-        var output = replaceNumber(getOutput());
+        var output = replaceNumber(getOutput()); //number
+        var outputt = getOutput(); //string
         if(output!=NaN){
-            output=output+this.id;
-            printOutput(output);
+            outputcomma=outputt+this.value;//number
+            outputporint=outputt+this.value;//string
+            // console.log(outputporint)
+            printOutput(intlCommaNumber(replaceNumber(outputcomma)));
+        }else if(outputt.indexOf('.')>-1){
+            outputcomma=outputt+this.value;//number
+            outputporint=outputt+this.value;//string
+            printOutput(intlCommaNumber(replaceNumber(outputcomma))+outputporint);
         }
     })
 }
+var period =document.getElementById('period');
+period.addEventListener('click',function(){
+    var output = getOutput();
+    output +='.';
+    printOutput(output);
+})

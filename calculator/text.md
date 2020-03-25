@@ -4,7 +4,14 @@
 
 ### toLocaleString()
     將數字格式化，使整數部分每三位加一個逗號，toLocaleString()
-    
+
+### Intl.NumberFormat()
+    同樣將數字格式化，加上千分位，但在效能處理上會比toLOcalString()來的快。
+
+### .indexOf()
+    用於字串查詢。
+    回調用 String 是否出現指定值的索引，如果未找到该值，则返回 -1。
+
 ### replace() <br>
 
     把印出的字串(數字)，","拿掉變數字，才能改變型別。
