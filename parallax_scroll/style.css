@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #0a2a43;
+    min-height: 1500px;
+}
+section{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#0a2a43,transparent);
+    z-index: 2;
+}
+section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a2a43;
+    mix-blend-mode: color;
+    z-index: 3;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section img:nth-child(2){
+    transition: 0.5s;
+}
+#text{
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#road{
+    position: absolute;
+    z-index: 1;
+}
+.contain{
+    max-width: 960px;
+    margin: 0 auto;
+    color: #fff;
+}
+.contain .text{
+    margin: 100px 0 0;
+}
+.text h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.slidesShow{
+    margin: 100px 0 80px;
+}
+.slidesShow img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    object-fit: cover;
+}
+.svgline{
+    text-align: center;
+    margin: 100px 0;
+}
+
+#easing_wrapper {
+    width:100%;
+    height:100%;
+}
+#easing_wrapper {
+    width:100%;
+    height:100%;
+}
+#easing {
+    top:10%;
+    width:50%;
+    z-index:101;
+}
+.skrollable {
+    position:fixed;
+    z-index:100;
+}
+.skrollr-mobile .skrollable {
+    position:absolute;
+}
+.skrollable .skrollable {
+    position:absolute;
+}
+.skrollable .skrollable .skrollable {
+    position:static;
+}
