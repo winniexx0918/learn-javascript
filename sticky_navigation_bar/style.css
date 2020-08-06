@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background: #000;
+    min-height: 200vh;
+}
+.content{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 40px 100px;
+    z-index: 1;
+    animation-duration: 1s;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: .6s;
+}
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header.sticky .logo,header.sticky ul li a{
+    color: #000;
+}
+header .main{
+    display: none;
+}
+header .main .openbtn{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(images/camera.jpg);
+    background-size: cover;
+}
+.txt{
+    color: #fff;
+    margin-top: 150px;
+}
+.txt h2{
+    font-size: 3.5em;
+    font-weight: 500;
+    animation-duration: 2s;
+}
+.txt p{
+    margin: 30px 0;
+}
+@media (max-width:768px){
+    header .main,header .main .openbtn{
+        display: block;
+    }
+    header ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 0;
+        background: rgb(215, 203, 181);
+        padding: 100px 0;
+        z-index: 10;
+        display: block;
+        overflow-x: hidden;
+    }
+    header ul li {
+        padding: 30px 0;
+        margin: 0 0;
+        text-align: center;
+    }
+    .navStyle {
+        width: 250px;
+    }
+    .conStyle {
+        margin-left: 250px;
+        transition: margin-left .5s;
+    }
+}
