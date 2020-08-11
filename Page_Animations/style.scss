@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #D2B48C,#FFE4C4);
+    z-index: -1;
+}
+nav{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    min-height: 10vh;
+    color: white;
+    align-items: center;
+    #logo{
+        grid-column: 2/3;
+        font-size: 20px;
+    }
+    .hamburger{
+        width: 30px;
+        justify-self: end;
+    }
+}
+section{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    // background-color: yellow;
+    .hero{
+        height: 80%;
+        width: 100%;
+        position: relative;
+        &::after{
+            content: '';
+            background: #000;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.2;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .headtext{
+            position: absolute;
+            top: 70%;
+            left: 10%;
+            font-size: 60px;
+            transform: translate(-20%,-70%);
+            color: white;
+            z-index: 1;
+            font-family: 'Homemade Apple', cursive;
+        }
+    }
+    
+}
