@@ -1,0 +1,1804 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+section:not(:first-of-type) {
+  margin-top: 30px;
+  justify-content: start;
+}
+section label {
+  display: inline-block;
+  margin-right: 15px;
+}
+section span.title {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(1) {
+  top: 0px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(2) {
+  top: 120px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(3) {
+  top: 240px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(4) {
+  top: 360px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(5) {
+  top: 480px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea div {
+  position: relative;
+}
+#pokerArea div:nth-child(6) {
+  top: 600px;
+}
+#pokerArea div img {
+  position: absolute;
+  top: 20px;
+}
+#pokerArea div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea div img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea div img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea div img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea div img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea div img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea div img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea div img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea div img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea div img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea div img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea div img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea div img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea div img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea div img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea div img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea div img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea div img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea div img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea div img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea div img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea div img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea div img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea div img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea div img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea div img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea div img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea div img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea div img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea div img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea div img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea div img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea div img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea div img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea div img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea div img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea div img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea div img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea div img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+#pokerArea div img:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 1200px;
+}
+#pokerArea div img:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 1230px;
+}
+#pokerArea div img:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 1260px;
+}
+#pokerArea div img:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 1290px;
+}
+#pokerArea div img:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 1320px;
+}
+#pokerArea div img:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 1350px;
+}
+#pokerArea div img:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 1380px;
+}
+#pokerArea div img:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 1410px;
+}
+#pokerArea div img:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+}
+#pokerArea div img:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 1470px;
+}
+#pokerArea div img:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+#pokerArea div img:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 1530px;
+}
+#pokerArea img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#pokerArea img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+#pokerArea img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+#pokerArea img:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+#pokerArea img:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+#pokerArea img:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+#pokerArea img:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 210px;
+}
+#pokerArea img:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+#pokerArea img:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+#pokerArea img:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+#pokerArea img:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+#pokerArea img:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+#pokerArea img:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 390px;
+}
+#pokerArea img:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 420px;
+}
+#pokerArea img:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+#pokerArea img:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 480px;
+}
+#pokerArea img:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+#pokerArea img:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+#pokerArea img:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 570px;
+}
+#pokerArea img:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+#pokerArea img:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+#pokerArea img:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 660px;
+}
+#pokerArea img:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+#pokerArea img:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 720px;
+}
+#pokerArea img:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+#pokerArea img:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 780px;
+}
+#pokerArea img:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 810px;
+}
+#pokerArea img:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 840px;
+}
+#pokerArea img:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 870px;
+}
+#pokerArea img:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 900px;
+}
+#pokerArea img:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 930px;
+}
+#pokerArea img:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 960px;
+}
+#pokerArea img:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 990px;
+}
+#pokerArea img:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 1020px;
+}
+#pokerArea img:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+#pokerArea img:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 1080px;
+}
+#pokerArea img:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 1110px;
+}
+#pokerArea img:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 1140px;
+}
+#pokerArea img:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 1170px;
+}
+
+/*# sourceMappingURL=style.css.map */
