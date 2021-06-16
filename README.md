@@ -13,3 +13,6 @@ https://winniexx0918.github.io/learn-javascript/sticky_navigation_bar/index.html
 
 * Page_Animations。<br>
 https://winniexx0918.github.io/learn-javascript/Page_Animations/index.html<br>
+
+* 撲克牌(洗牌)。<br>
+https://winniexx0918.github.io/learn-javascript/poker/index.html<br>
