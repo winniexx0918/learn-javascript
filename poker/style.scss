@@ -1,0 +1,51 @@
+section {
+  display: flex;
+  // justify-content: center;
+  flex-wrap: wrap;
+  &:not(:first-of-type) {
+    margin-top: 30px;
+    justify-content: start;
+  }
+  label {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  span {
+    &.title {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  }
+}
+#pokerArea {
+  @for $num from 1 to 7 {
+    div {
+      position: relative;
+      &:nth-child(#{$num}) {
+        top: (($num - 1) * 2) * 60px;
+      }
+      img {
+        position: absolute;
+        top: 20px;
+      }
+      @for $var from 1 to 52 {
+        img {
+          &:nth-child(#{$var}) {
+            position: absolute;
+            top: 0;
+            left: $var * 30px;
+          }
+        }
+      }
+    }
+  }
+  @for $var from 1 to 40 {
+    img {
+      &:nth-child(#{$var}) {
+        position: absolute;
+        top: 0;
+        left: $var * 30px;
+      }
+    }
+  }
+}

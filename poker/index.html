@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>撲克牌洗牌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <span class="title">玩家：</span>
+            <input type="radio" name="players" value="2" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="players" value="3" id="3">
+            <label for="3">3</label>
+            <input type="radio" name="players" value="4" id="4" checked>
+            <label for="4">4</label>
+            <input type="radio" name="players" value="5" id="5">
+            <label for="5">5</label>
+            <input type="radio" name="players" value="6" id="6">
+            <label for="6">6</label>
+            <span>人</span>
+        </div>
+        <div>
+            <span class="title">依據花色排序：</span>
+            <input type="checkbox" id="isSort" onclick="checkedFun()">
+            <input type="button" value="發牌" onclick="deal()">
+        </div>
+    </section>
+    <section>
+        <div id="pokerArea">
+        </div>
+    </section>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="./all.js"></script>
+</body>
+
+</html>
